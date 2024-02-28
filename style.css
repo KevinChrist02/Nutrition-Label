@@ -61,3 +61,31 @@ p {
 .calories-info h2 {
   margin: 0;
 }
+
+.calories-info span {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: -7px -2px;
+}
+
+.left-container {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.medium {
+  height: 5px;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
